@@ -124,14 +124,14 @@
 /* ====== CONFIG ====== */
 /* Photo 15 ပုံ */
 const PHOTOS = Array.from({length: 15}, (_, i) => ({
-  file: `photos/photo${i+1}.jpg`,
-  title: `ပုံ ${i+1}`
+  file: `photos/photo${i+1}.png`,
+  title: `စာတွေ့ ${i+1}`
 }));
 
 /* Video 10 ပုဒ် */
 const VIDEOS = Array.from({length: 10}, (_, i) => ({
   file: `videos/video${i+1}.mp4`,
-  title: `ဗီဒီယို ${i+1}`
+  title: `လက်‌ေတွ့${i+1}`
 }));
 
 /* Login Credentials */
@@ -152,7 +152,7 @@ document.getElementById('loginBtn').addEventListener('click', () => {
     loginScreen.style.display = 'none';
     menuScreen.style.display = '';
   } else {
-    alert('Username or password မမှန်ပါ။ دوبارہ ကြိုးစားပါ။');
+    alert('Username or password မမှန်ပါ။ ထပ်မံ ကြိုးစားပါ။');
   }
 });
 
